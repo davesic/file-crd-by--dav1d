@@ -2,9 +2,12 @@ C:\Users\David\source\repos\davefiles\bin\Debug\davefiles.exe.config
 C:\Users\David\source\repos\davefiles\bin\Debug\davefiles.exe
 C:\Users\David\source\repos\davefiles\bin\Debug\davefiles.pdb
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.csprojAssemblyReference.cache
-C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.Form1.resources
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.Properties.Resources.resources
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.csproj.GenerateResource.cache
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.csproj.CoreCompileInputs.cache
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.exe
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.pdb
+C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.FManager.resources
+C:\Users\David\source\repos\davefiles\bin\Debug\en\davefiles.resources.dll
+C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.FManager.en.resources
+C:\Users\David\source\repos\davefiles\obj\Debug\en\davefiles.resources.dll
