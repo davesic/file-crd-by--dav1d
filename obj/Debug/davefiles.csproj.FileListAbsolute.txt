@@ -11,3 +11,6 @@ C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.FManager.resources
 C:\Users\David\source\repos\davefiles\bin\Debug\en\davefiles.resources.dll
 C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.FManager.en.resources
 C:\Users\David\source\repos\davefiles\obj\Debug\en\davefiles.resources.dll
+C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.delete_files.resources
+C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.delete_files_right.resources
+C:\Users\David\source\repos\davefiles\obj\Debug\davefiles.delete_fail.resources

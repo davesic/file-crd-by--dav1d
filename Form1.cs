@@ -139,5 +139,69 @@ namespace davefiles
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+                /*
+            
+                foreach (var drive in DriveInfo.GetDrives())
+                {
+
+                    comboBox1.Items.Add("Имя диска: " + drive.Name + "Файловая система: " + drive.DriveFormat);
+                    //comboBox1.Items.AddRange(new string[] { "Имя диска: " + drive.Name + "Файловая система: " + drive.DriveFormat + "Тип диска: " + drive.DriveType });
+                    *//*Console.WriteLine("Объем доступного свободного места (в байтах): " + drive.AvailableFreeSpace);
+                    Console.WriteLine("Готов ли диск: " + drive.IsReady);
+                    Console.WriteLine("Корневой каталог диска: " + drive.RootDirectory);
+                    Console.WriteLine("Общий объем свободного места, доступного на диске (в байтах): " + drive.TotalFreeSpace);
+                    Console.WriteLine("Размер диска (в байтах): " + drive.TotalSize);
+                    Console.WriteLine("Метка тома диска: " + drive.VolumeLabel);*//*
+
+                }*/
+            }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            
+            DriveInfo[] di = DriveInfo.GetDrives();
+            foreach (DriveInfo d in di)
+                comboBox1.Items.Add(d.Name);
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox1.Text = comboBox1.SelectedItem.ToString();
+            DirectoryInfo dir = new DirectoryInfo(textBox1.Text);
+            DirectoryInfo[] dirs = dir.GetDirectories();
+
+            foreach (DirectoryInfo crrDir in dirs)
+            {
+                listBox1.Items.Add(crrDir);
+            }
+
+            // show files
+
+            FileInfo[] files = dir.GetFiles();
+            foreach (FileInfo crrFile in files)
+            {
+                listBox1.Items.Add(crrFile);
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            DriveInfo[] di = DriveInfo.GetDrives();
+            foreach (DriveInfo d in di)
+                comboBox1.Items.Add(d.Name);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form delete = new delete_files();
+            delete.ShowDialog();
+        }
     }
 }
