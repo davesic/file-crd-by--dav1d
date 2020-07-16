@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add\add_fail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\add_fail.Designer.cs">
+      <DependentUpon>add_fail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add\add_files.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\add_files.Designer.cs">
+      <DependentUpon>add_files.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add\add_files_right.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\add_files_right.Designer.cs">
+      <DependentUpon>add_files_right.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add\add_folder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\add_folder.Designer.cs">
+      <DependentUpon>add_folder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add\folder_exist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\folder_exist.Designer.cs">
+      <DependentUpon>folder_exist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add\folder_right.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add\folder_right.Designer.cs">
+      <DependentUpon>folder_right.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete\delete_folder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete\delete_folder.Designer.cs">
+      <DependentUpon>delete_folder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete\delete_folder_fail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete\delete_folder_fail.Designer.cs">
+      <DependentUpon>delete_folder_fail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete\delete_folder_right.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete\delete_folder_right.Designer.cs">
+      <DependentUpon>delete_folder_right.cs</DependentUpon>
+    </Compile>
     <Compile Include="delete_fail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +118,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Move\folder_good_move.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move\folder_good_move.Designer.cs">
+      <DependentUpon>folder_good_move.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Move\Move_f.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move\Move_f.Designer.cs">
+      <DependentUpon>Move_f.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Move\move_folder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move\move_folder.Designer.cs">
+      <DependentUpon>move_folder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Move\move_files_right.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move\move_files_right.Designer.cs">
+      <DependentUpon>move_files_right.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Move\move_folder_error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move\move_folder_error.Designer.cs">
+      <DependentUpon>move_folder_error.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="delete_files.cs">
@@ -72,6 +156,51 @@
     <Compile Include="delete_files.Designer.cs">
       <DependentUpon>delete_files.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rename\rename_files.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rename\rename_files.Designer.cs">
+      <DependentUpon>rename_files.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rename\rename_files_error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rename\rename_files_error.Designer.cs">
+      <DependentUpon>rename_files_error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rename\rename_file_good.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rename\rename_file_good.Designer.cs">
+      <DependentUpon>rename_file_good.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add\add_fail.resx">
+      <DependentUpon>add_fail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add\add_files.resx">
+      <DependentUpon>add_files.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add\add_files_right.resx">
+      <DependentUpon>add_files_right.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add\add_folder.resx">
+      <DependentUpon>add_folder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add\folder_exist.resx">
+      <DependentUpon>folder_exist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add\folder_right.resx">
+      <DependentUpon>folder_right.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete\delete_folder.resx">
+      <DependentUpon>delete_folder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete\delete_folder_fail.resx">
+      <DependentUpon>delete_folder_fail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete\delete_folder_right.resx">
+      <DependentUpon>delete_folder_right.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="delete_fail.resx">
       <DependentUpon>delete_fail.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +216,21 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Move\folder_good_move.resx">
+      <DependentUpon>folder_good_move.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Move\Move_f.resx">
+      <DependentUpon>Move_f.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Move\move_folder.resx">
+      <DependentUpon>move_folder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Move\move_files_right.resx">
+      <DependentUpon>move_files_right.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Move\move_folder_error.resx">
+      <DependentUpon>move_folder_error.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -97,6 +241,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Rename\rename_files.resx">
+      <DependentUpon>rename_files.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rename\rename_files_error.resx">
+      <DependentUpon>rename_files_error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rename\rename_file_good.resx">
+      <DependentUpon>rename_file_good.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,8 +269,6 @@
   <ItemGroup>
     <None Include="Resources\ic-back_97586.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="delete\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

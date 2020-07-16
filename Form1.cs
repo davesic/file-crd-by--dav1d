@@ -9,6 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using davefiles.add;
+using davefiles.Move;
+using davefiles.delete;
+using davefiles.Rename;
 
 namespace davefiles
 {
@@ -202,6 +206,42 @@ namespace davefiles
         {
             Form delete = new delete_files();
             delete.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form add_f = new add_files();
+            add_f.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form move_f = new Move_f();
+            move_f.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form folder = new add_folder();
+            folder.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form folder = new delete_folder();
+            folder.ShowDialog();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form folder = new move_folder();
+            folder.ShowDialog();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form rename = new rename_files();
+            rename.ShowDialog();
         }
     }
 }
